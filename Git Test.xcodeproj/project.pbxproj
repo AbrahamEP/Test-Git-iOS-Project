@@ -21,6 +21,7 @@
 		174C80D119B6947000C674BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 174C80B319B6947000C674BF /* UIKit.framework */; };
 		174C80D919B6947000C674BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 174C80D719B6947000C674BF /* InfoPlist.strings */; };
 		174C80DB19B6947000C674BF /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 174C80DA19B6947000C674BF /* Git_TestTests.m */; };
+		174C80E619B69B9400C674BF /* AEPTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 174C80E519B69B9400C674BF /* AEPTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		174C80D619B6947000C674BF /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		174C80D819B6947000C674BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		174C80DA19B6947000C674BF /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		174C80E419B69B9400C674BF /* AEPTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AEPTest.h; path = ../AEPTest.h; sourceTree = "<group>"; };
+		174C80E519B69B9400C674BF /* AEPTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AEPTest.m; path = ../AEPTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				174C80C119B6947000C674BF /* Main.storyboard */,
 				174C80C419B6947000C674BF /* AEPViewController.h */,
 				174C80C519B6947000C674BF /* AEPViewController.m */,
+				174C80E419B69B9400C674BF /* AEPTest.h */,
+				174C80E519B69B9400C674BF /* AEPTest.m */,
 				174C80C719B6947000C674BF /* Images.xcassets */,
 				174C80B619B6947000C674BF /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				174C80BC19B6947000C674BF /* main.m in Sources */,
 				174C80C019B6947000C674BF /* AEPAppDelegate.m in Sources */,
+				174C80E619B69B9400C674BF /* AEPTest.m in Sources */,
 				174C80C619B6947000C674BF /* AEPViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
